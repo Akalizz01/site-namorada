@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amo-te ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="css/default.css" rel="stylesheet">
+  <script src="js/index.js" defer></script>
+</head>
+
+<div id="photoOverlay" class="photo-overlay">
+  <div class="photo-container">
+    <span id="closePhoto" class="close-btn">×</span>
+    <img id="photoDisplay" src="" alt="Foto grande">
+  </div>
+</div>
+
+<body>
+
+  <audio id="music" autoplay loop>
+    <source src="tumble_girl.mp3" type="audio/mp3"> 
+  </audio>
+
+  <div class="stage">
+    <div class="card">
+
+      <div class="hero">
+        <div class="title">Amo-te muito amor 2 Anos de namoro ❤️</div>
+        <div class="subtitle">Amo-te muito e espero que gostes.A lua está linda hoje</div>
+        <div class="actions" style="margin-top:18px">
+          <div class="gift-container" id="openGift">
+            <div class="gift-emoji">🎁</div>
+            <div class="gift-text">Clica em mim</div>
+          </div>
+
+          <button class="btn ghost" id="toggleMusic">Pausar Música</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="thumbs" id="thumbs">
+          <!-- thumbnails: troca pelas tuas imagens em images/ -->
+          <div class="thumb" data-src="images/photo1.jpg"><img src="images/photo1.jpg" alt="foto1"></div>
+          <div class="thumb" data-src="images/photo2.jpg"><img src="images/photo2.jpg" alt="foto2"></div>
+          <div class="thumb" data-src="images/photo3.jpg"><img src="images/photo3.jpg" alt="foto3"></div>
+          <div class="thumb" data-src="images/photo4.jpg"><img src="images/photo4.jpg" alt="foto4"></div>
+        </div>
+
+        <div style="width:100%" class="center">
+          <div class="play-small center" id="playSmall">►</div>
+        </div>
+        <div class="muted" style="font-size:13px"></div>
+      </div>
+
+      <div class="canvas">
+        <div class="message-card" id="cardMessage">
+          <div class="big" id="greeting">Tu sabes que não tenho muito dinheiro então fiz isto com muito amor e carinho ❤️</div>
+          <p id="little">Clica no Abre o teu presente e tenta não chorar pls :3</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- Surprise overlay -->
+<div class="surprise" id="surprise">
+  <div class="surprise-card">
+    <!-- Botão X no canto -->
+    <span id="closeSurpriseX" class="close-btn">×</span>
+
+    <h2 id="surpriseTitle">2 Anos, Amor ❤️</h2>
+    <p id="surpriseText">Cada linha disto foi escrita a pensar em ti. Queres ver mais coisas do nosso relacionamento? 👉👈</p>
+    <div style="margin-top:18px;display:flex;gap:12px;justify-content:center">
+      <button class="btn" id="viewGallery">Ver Galeria</button>
+      <button class="btn ghost close-x" id="closeSurprise">Fechar</button>
+    </div>
+  </div>
+</div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confetti"></canvas>
+</body>
+
+</html>

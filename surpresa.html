@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surpresa Romântica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="css/surpresa.css" rel="stylesheet">
+  <script src="js/surpresa.js" defer></script>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6ea, #d0f0c0);
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+    max-width: none;
+    width: 100%;
+    padding: 40px 80px;
+    box-sizing: border-box;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #e63946;
+    }
+    .section {
+      margin: 32px 0;
+    }
+    .icon-text {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .icon-text span {
+      font-size: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .grid-item {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .grid-item span {
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .love-letter {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .love-letter button {
+      background: #e63946;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<div id="heartContainer"></div>
+
+
+<body>
+    <header class="main-header">
+        <h1>Parabens meu amor</h1>
+        <h2>Para a namorada mais linda do mundo!</h2>
+        <h4>Neste dia fazemos 2 anos de namoro e quero partilhar todos os nossos momentos felizes!</h4>
+        <h5>✨❤️✨</h5>
+    </header>
+
+  <!-- Secção História -->
+  <section class="section top-section" id="historia">
+    <h2><span class="emoji">❤️</span> A Nossa História de Amor</h2>
+    <div class="animated-card">
+        <div class="card-icon">❤️</div>
+        <h3 class="card-title">Desde o primeiro dia</h3>
+        <p class="card-text">Quando eu te vi no primeiro dia, eu sabia logo que era contigo que eu queria namorar e casar. A maneira
+            que tu iluminaste o meu coração foi especial e unico. Queria tanto repetir aquele dia..
+        </p>
+    </div>
+    <div class="animated-card">
+        <div class="card-icon">🌷</div>
+        <h3 class="card-title">Obstaculos</h3>
+        <p class="card-text">Mor eu sei que discutimos muito, não tanto agora mas eu sei que tu irritaste comigo pelas coisas que eu faco
+            mas são essas coisas que fortalecem o nosso relacionamento, eu espero que sempre mas <strong>SEMPRE</strong> que discutimos 
+            que conseguamos resolver as coisas e que nunca destrua o nosso relacionamento mas sim fortaleca.
+        </p>
+    </div>
+    <div class="animated-card">
+        <div class="card-icon">✨</div>
+        <h3 class="card-title">Para Sempre e Sempre</h3>
+        <p class="card-text">Espero que possamos ficar para sempre, quando eu disse sempre até que a morte nos separe juntos. Quero muito
+            construir um futuro contigo e tu sabes disso. Quero também pedir voce em casamento mas pouco a pouco chegamos lá. Te amoo muito princesa :3
+        </p>
+    </div>
+  </section>
+
+  <!-- Secção Tempo -->
+    <section class="section" id="tempo">
+        <h2><span class="emoji">⏳</span> Tempo Desde Que Disseste "Sim"</h2>
+        <div id="timeCounter">
+            <div><strong><span id="days">0</span></strong> Dias</div>
+            <div><strong><span id="hours">0</span></strong> Horas</div>
+            <div><strong><span id="minutes">0</span></strong> Minutos</div>
+            <div><strong><span id="seconds">0</span></strong> Segundos</div>
+        </div>
+        <p>Podes sempre vir aqui para te lembrares do tempo que estamos juntos ❤️</p>
+    </section>
+
+
+  <!-- Secção Razões -->
+  <section class="section" id="razoes">
+    <h2><span class="emoji">❤️</span> Razões Porque Te Amo</h2>
+    <div class="love-grid">
+      <div class="love-item"><span>😊</span>O teu sorriso melhora o meu dia mil vezes</div>
+      <div class="love-item"><span>🤗</span>Os teus abraços fazem-me sentir seguro e amado</div>
+      <div class="love-item"><span>💬</span>Adoro falar contigo todos os dias (parecendo ou nao mas eu adoro )</div>
+      <div class="love-item"><span>✨</span>Transformas momentos simples em momentos que eu NUNCA vou esquecer na vida</div>
+      <div class="love-item"><span>🌼</span>Tu és a minha motivação para me levantar todos os dias</div>
+      <div class="love-item"><span>💪</span>Amo a tua coragem de enfrentares os teus pais mesmo sabendo no que vai dar.</div>
+      <div class="love-item"><span>😄</span>Adoro te ouvir a rir quando eu sou estúpido</div>
+      <div class="love-item"><span>✌️</span>Tu inspiras-me e das me motivação para tudo oque eu preciso e eu admiro isso</div>
+      <div class="love-item"><span>🎨</span>Tu trazes cor para o meu mundo a preto e branco</div>
+    </div>
+  </section>
+
+  <!-- Secção Galeria -->
+  <section class="section" id="galeria">
+    <h2><span class="emoji">📸</span> As Nossas Memórias</h2>
+    <div class="gallery">
+      <img src="images/photo5.jpg" alt="memória1">
+      <img src="images/photo6.jpg" alt="memória2">
+      <img src="images/photo7.jpg" alt="memória3">
+      <img src="images/photo8.jpg" alt="memória4">
+      <img src="images/photo9.jpg" alt="memória5">
+      <img src="images/photo10.jpg" alt="memória6">
+      <img src="images/photo11.jpg" alt="memória7">
+      <img src="images/photo12.jpg" alt="memória8">
+      <img src="images/photo13.jpg" alt="memória9">
+      <img src="images/photo14.jpg" alt="memória10">
+      <img src="images/photo15.jpg" alt="memória11">
+      <img src="images/photo16.jpg" alt="memória12">
+      <img src="images/photo17.jpg" alt="memória13">
+      <img src="images/photo18.jpg" alt="memória14">
+      <img src="images/photo19.jpg" alt="memória15">
+      <img src="images/photo20.jpg" alt="memória16">
+    </div>
+  </section>
+
+  <!-- Secção Carta -->
+  <section class="section" id="carta">
+    <h2><span class="emoji">💌</span> A minha Carta</h2>
+    <div class="love-box" onclick="toggleLetter()">
+      <div class="love-icon">❤️</div>
+      <p class="love-prompt">Clica para abrir a minha carta de amor</p>
+      <div class="love-letter-content" id="letterContent">
+        <h3>Para o Amor da Minha Vida 💖</h3>
+        <p>Bem mor... nem sei por onde comecar, 2 anos hum... nunca pensei que conseguiria ter uma relação tão longa tão cedo.
+          Mas ainda bem que aconteceu e ainda está a acontecer, sinto que eu encontrei a pessoa certa, a pessoa que eu quero
+          fazer feliz todos os dias, a pessoa que me motiva todos os dias para fazer simples tarefas e me motiva a ter um bom futuro,
+          um futuro onde possamos tar juntos e construir uma família, um futuro onde eu possa te ir buscar ao trabalho chegarmos a casa
+          e vermos um anime ou filme juntos, um futuro onde temos 2 filhos e um gatinho, isso sim me deixa contente e motiva pra ser uma 
+          pessoa melhor. Eu sei que eu tenho muita falhas ainda e não sou o namorado perfeito eu sei disso mas no fundo eu ás vezes não 
+          sei oque fazer, isto é o meu primeiro namoro a sério e todas as vezes que nós nos chateamos não é porque eu gosto de te ver mal,
+          até porque isso não faz muito sentido mas ás vezes eu não sei tomar as decissões certas, eu tenho andado a mudar enquanto a isso
+          mas não é disso que eu vejo aqui falar e sim do tempo que nós temos andado juntos. Desde o primeiro dia eu ainda me lembro de quase
+          todos os nossos encontros e de todas as vezes que tivemos juntos, eu realmente queria tar muito mais tempo junto contigo tipo umas 7 vezes
+          por semana mas sei que não é possivel infelizmente mas sim num futuro proximo. Eu sou mesmo muito sortudo por ter uma pessoa incrivel
+          como tu ao meu lado, eu sei que posso tar só aqui a atirar palavras ao ar mas realmente és uma pessoa que eu admiro muito,cada vez
+          que dizes que tas feia apetece me estrangular-te, cada vez que dizes que não és a namorada perfeita apetece me comecar a detalhar
+          tudo oque tu fazes de bom e como és perfeita, literalmente a <strong>MELHOR NAMORADA DO MUNDO</strong> e eu fico tipo, será
+          que eu mereco isso tudo mesmo? Mas pronto eu dou graças a deus todos os dias por ter alguem tão incrivel como tu na minha vida
+          e espero que isto dure para sempre até que a morte nos separe ❤️. 
+          Te amo muito e a lua está linda hoje ...
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <audio id="bgMusic" autoplay loop>
+  <source src="dopamine.mp3" type="audio/mpeg">
+  O teu navegador não suporta áudio.
+  </audio>
+
+  <button id="toggleMusic">🎵 Música</button>
+
+</body>
+
+<footer class="love-footer">
+  <div class="footer-card">
+    <div class="footer-icon">❤️</div>
+    <h3>Amo-te para Sempre!</h3>
+    <p>Que o teu dia seja tão lindo e maravilhoso como tu. Obrigado por seres o amor da minha vida. 🎂💕</p>
+  </div>
+</footer>
+</html>

@@ -15,3 +15,6 @@ Small website interactive made for my girlfriend
 Demo : https://akalizz01.github.io/site-namorada/
 
 Date : 09/12/2023
+
+
+OBS: I remove the images because of personal issues.

@@ -12,4 +12,4 @@ Small website interactive made for my girlfriend
 - CSS
 - JavaScript
 
-Demo : 
+Demo : https://akalizz01.github.io/site-namorada/
